@@ -23,3 +23,5 @@ OS              GNU/Linux operating system components including:
 Test            Command line utilities (acquire, generate, ...).
 shared          Common libraries and routines.
 
+Guitar effects module in added to FPGA code. Open with PlanAhead to edit and build most simply.
+
