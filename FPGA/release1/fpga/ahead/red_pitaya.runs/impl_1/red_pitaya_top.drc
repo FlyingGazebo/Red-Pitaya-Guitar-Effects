@@ -1,0 +1,23 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Sep 10 11:05:29 2015
+
+drc -z red_pitaya_top_routed.ncd red_pitaya_top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   i_guitar/i_dist/unnorm[31]_unnorm[30]_MUX_1093_o is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   i_daisy/Mram_tx_cfg_sel[2]_GND_42_o_Mux_17_o is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+WARNING:PhysDesignRules:2455 - Unsupported clocking topology used for OSERDESE2
+   <i_daisy/i_tx/i_oserdese>. This can result in corrupted data. The CLK /
+   CLKDIV pins should be driven by the same source through the same buffer type
+   or by a BUFIO / BUFR combination in order to have a proper phase
+   relationship. Please refer to the Select I/O User Guide for supported
+   clocking topologies of the chosen INTERFACE_TYPE mode.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

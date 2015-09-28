@@ -7,12 +7,12 @@
         <Attr Name="UsedInImplementation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PRUNDIR/impl_1/.constrs/system.ncf">
+    <File Path="$PRUNDIR/impl_1/.constrs/system_processing_system7_0_wrapper.ncf">
       <FileInfo>
         <Attr Name="UsedInImplementation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PRUNDIR/impl_1/.constrs/system_processing_system7_0_wrapper.ncf">
+    <File Path="$PRUNDIR/impl_1/.constrs/system.ncf">
       <FileInfo>
         <Attr Name="UsedInImplementation" Val="1"/>
       </FileInfo>

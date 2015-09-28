@@ -2,7 +2,7 @@
 
 rem  PlanAhead(TM)
 rem  launch.bat: a PlanAhead-generated ExploreAhead Script
-rem  Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+rem  Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 
 
 setlocal

@@ -3,7 +3,7 @@
 # 
 # PlanAhead(TM)
 # launch.sh: a PlanAhead-generated ExploreAhead Script for UNIX
-# Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
 # 
 
 HD_LDIR=`dirname "$0"`

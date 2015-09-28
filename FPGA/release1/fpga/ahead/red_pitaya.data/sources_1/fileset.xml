@@ -2,6 +2,15 @@
 <DARoots Version="1" Minor="26">
   <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/bus_clk_bridge.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/bus_clk_bridge.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/edk/system/system.xmp">
       <FileInfo>
         <Attr Name="UsedInSynthesis" Val="1"/>
@@ -9,71 +18,118 @@
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_pid_block.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_pid_block.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_pid_block.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_dfilt1.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_maf.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_maf.v"/>
+        <Attr Name="ImportTime" Val="1441872512"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_daisy_tx.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_dist.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_dist.v"/>
+        <Attr Name="ImportTime" Val="1441872954"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_daisy_test.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_conf.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_conf.v"/>
+        <Attr Name="ImportTime" Val="1441874856"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_daisy_rx.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_amp.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_amp.v"/>
+        <Attr Name="ImportTime" Val="1441872727"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_asg_ch.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_dfilt1.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_dfilt1.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/bus_clk_bridge.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_daisy_tx.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_daisy_tx.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/axi_wr_fifo.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_daisy_test.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_daisy_test.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/axi_slave.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_daisy_rx.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_daisy_rx.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/axi_master.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_asg_ch.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_asg_ch.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/axi_wr_fifo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/axi_wr_fifo.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/axi_slave.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/axi_slave.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/axi_master.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/axi_master.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
@@ -88,71 +144,100 @@
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_test.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_test.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_test.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_scope.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_scope.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_scope.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_ps.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_ps.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_ps.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_pid.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_pid.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_pid.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_hk.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_hk.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_hk.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_daisy.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_top.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_top.v"/>
+        <Attr Name="ImportTime" Val="1441875274"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_asg.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_daisy.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_daisy.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_analog.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_asg.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_asg.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_ams.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_analog.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_analog.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../code/rtl/red_pitaya_top.v">
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_ams.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_ams.v"/>
+        <Attr Name="ImportTime" Val="1439367249"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_top.v"/>
+        <Attr Name="ImportTime" Val="1441696666"/>
         <Attr Name="UsedInSynthesis" Val="1"/>
         <Attr Name="UsedInImplementation" Val="1"/>
         <Attr Name="UsedInSimulation" Val="1"/>
@@ -235,11 +320,65 @@
         <Attr Name="UsedInSimulation" Val="1"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_distortion.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_distortion.v"/>
+        <Attr Name="ImportTime" Val="1440741926"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_octaver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_octaver.v"/>
+        <Attr Name="ImportTime" Val="1439971159"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_bypass.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_bypass.v"/>
+        <Attr Name="ImportTime" Val="1440487148"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_square.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_square.v"/>
+        <Attr Name="ImportTime" Val="1441264910"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/Hhp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/Hhp.v"/>
+        <Attr Name="ImportTime" Val="1441616449"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/red_pitaya_guitar_delay.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../code/rtl/red_pitaya_guitar_delay.v"/>
+        <Attr Name="ImportTime" Val="1440393992"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="red_pitaya_top"/>
       <Option Name="TopLib" Val="work"/>
-      <Option Name="TopRTLFile" Val="$PPRDIR/../code/rtl/red_pitaya_top.v"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/imports/rtl/red_pitaya_top.v"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
       <Define Name="TOOL_AHEAD"/>
     </Config>

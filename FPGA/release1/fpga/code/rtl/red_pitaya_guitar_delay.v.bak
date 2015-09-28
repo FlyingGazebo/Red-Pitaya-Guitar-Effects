@@ -1,0 +1,81 @@
+/**
+ * $Id: red_pitaya_guitar_delay.v$
+ *
+ * @brief Red Pitaya guitar delay module. Saves a number of samples and mixes them with 
+ * later samples. Theoretically infinite but for decay.
+ *
+ * @Author Eva Šegatin
+ *
+ * (c) Red Pitaya  http://www.redpitaya.com
+ *
+ * This part of code is written in Verilog hardware description language (HDL).
+ * Please visit http://en.wikipedia.org/wiki/Verilog
+ * for more details on the language used herein.
+ */
+ 
+ module red_pitaya_guitar_delay
+ (
+    input                clk_i           ,
+    input                rstn_i          ,
+    
+    //samples
+    input      [16-1: 0] in_sound_i        , // adc input
+    output     [16-1: 0] out_sound_o       ,
+    
+    //parameters
+    input      [16-1: 0] delay_time        ,//in samples@44.1kHz
+    input      [ 8-1: 0] decay
+
+);
+//naive ram, not sure if it can be implemented
+reg [16-1: 0] saved_samples [0:65535];
+reg [16-1: 0] buf_out;
+reg [ 8-1: 0] cnt;
+reg [16-1: 0] addr;
+
+wire [16-1: 0] mix_out;
+wire [17-1: 0] mix_out_sat;
+wire [25-1: 0] delay_mult;
+
+always @ (posedge clk_i)
+begin
+if (rstn_i)
+begin
+    saved_samples <= 'h0;
+    cnt <= 'd170;
+    addr <= 'h0;
+end
+else
+begin
+    cnt <= cnt - 1'd1;
+    buf_out <= saved_samples[delay_time];
+    if (cnt == 'd0) //each 170th sample is saved
+    begin
+        saved_samples[addr] <= in_sound_i + buf_out;
+        addr <= addr + 1;
+        cnt <= 170;
+        if (addr == delay_time)
+            addr <= 16'h0;
+    end
+end
+end
+
+assign delay_mult = buf_out * {0, decay};
+assign mix_out_sat = {delay_mult[24], delay_mult[24:9]} + {in_sound_i[15], in_sound_i};
+assign buf_end = mix_out;
+assign out_sound_o = mix_out;
+
+always @ (*)
+begin
+    if (mix_out_sat[16:15] == 2'b01) //positive overflow
+        mix_out <= 16'h7fff;
+    else if (mix_out_sat[16:15] == 2'b10) //negative overflow
+        mix_out <= 16'h8000;
+    else
+        mix_out <= mix_out_sat[15:0];
+end
+
+endmodule
+    
+
+

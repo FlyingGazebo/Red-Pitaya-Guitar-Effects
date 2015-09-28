@@ -1,0 +1,11 @@
+set -loop_iteration_limit 1000
+run
+-ifn red_pitaya_top.prj
+-top red_pitaya_top
+-p xc7z010clg400-1
+-ofn red_pitaya_top.ngc
+-define {TOOL_AHEAD}
+-sd {../../red_pitaya.srcs/sources_1/edk/system/implementation}
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt

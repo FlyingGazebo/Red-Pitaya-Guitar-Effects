@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">i_guitar/i_dist/unnorm[31]_unnorm[30]_MUX_1093_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">i_daisy/Mram_tx_cfg_sel[2]_GND_42_o_Mux_17_o</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2455" delta="new" >Unsupported clocking topology used for <arg fmt="%s" index="1">OSERDESE2</arg> &lt;<arg fmt="%s" index="2">i_daisy/i_tx/i_oserdese</arg>&gt;. This can result in corrupted data. The <arg fmt="%s" index="3">CLK</arg> / <arg fmt="%s" index="4">CLKDIV</arg> pins should be driven by the same source through the same buffer type or by a BUFIO / BUFR combination in order to have a proper phase relationship. Please refer to the Select I/O User Guide for supported clocking topologies of the chosen INTERFACE_TYPE mode.
+</msg>
+
+</messages>
+
